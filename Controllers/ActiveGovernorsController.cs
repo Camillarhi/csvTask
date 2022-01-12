@@ -17,7 +17,7 @@ namespace csvTask.Controllers
     public class ActiveGovernorsController : Controller
     {
         private readonly ApplicationDbContext _db;
-        private List<ActiveGovernor> ActiveGovernors { get; set; } 
+        private List<ActiveGovernor> ActiveGovernors { get; set; }    
 
         public ActiveGovernorsController(ApplicationDbContext db)
         {
